@@ -1,0 +1,59 @@
+.footer {
+  padding: 10px 0;
+  & > .copyroght {
+    //padding: 0 40px
+  }
+  width: 100%;
+  padding: 20px 0;
+  background-color: #666;
+  color: #f8f9fa;
+  & > .container {
+    padding-top: 40px;
+    //padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    & h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    & ul {
+      list-style: none;
+      padding: 0;
+
+      & li {
+        padding: 5px 0;
+        font-size: 0.9rem;
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+
+  & svg {
+    font-size: 24px;
+    color: #f8f9fa;
+
+    &:hover {
+      color: #007bff;
+      cursor: pointer;
+    }
+  }
+}
